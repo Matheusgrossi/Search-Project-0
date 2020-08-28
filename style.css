@@ -9,20 +9,21 @@ table {
     margin: 12% 30% 0% 30%;
 }
 
-#btns-td {
-    padding: 5% 25% 0 25%
-}
-
 #search-bar {
     border-radius: 50px;
     flex: 1;
     display: flex;
-    padding: 10px;
+    padding: 11px 30px 11px 30px;
     width: 510px;
     height: 20px;
 }
 
-input {
+#btns-td {
+    padding: 5% 24% 0 24%
+}
+
+input[type=submit] {
     border-radius: 3px;
     height: 35px;
+    padding: 0px 20px 0px 20px;
 }
