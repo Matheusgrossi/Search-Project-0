@@ -4,18 +4,13 @@
     width: 100%;
 }
 
-.side-panel {
-    float: left;
-    
-    min-width: 25px;
-    min-height: 420px;
-
-    width: 30%;
-    height: 100%;
-}
-
 table {
     float: left;
+    margin: 12% 30% 0% 30%;
+}
+
+#btns-td {
+    padding: 5% 25% 0 25%
 }
 
 #search-bar {
@@ -25,7 +20,6 @@ table {
     padding: 10px;
     width: 510px;
     height: 20px;
-    margin-bottom: 15px;
 }
 
 input {
