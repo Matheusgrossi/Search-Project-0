@@ -9,6 +9,10 @@ table {
     margin: 12% 30% 0% 30%;
 }
 
+#top-bar {
+    float: left;
+}
+
 #search-bar {
     border-radius: 50px;
     flex: 1;
