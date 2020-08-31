@@ -36,6 +36,16 @@ table {
     text-align: center;
 }
 
+#top-bar > span > a {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+
+#top-bar > span > a:hover {
+    opacity: .85;
+    text-decoration: underline;
+}
+
 #logo {
     float: left;
     padding: 0 24% 4% 24%;
