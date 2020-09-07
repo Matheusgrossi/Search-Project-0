@@ -51,6 +51,10 @@ body {
     margin: 0px 10px;
 }
 
+.gap {
+    min-height: 0%;
+}
+
 #logo {
     width: initial !important;
     min-width: 14%;
