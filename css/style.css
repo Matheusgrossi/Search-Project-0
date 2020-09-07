@@ -8,7 +8,7 @@ body {
 }
 
 #container {
-    overflow: scroll;
+    overflow-y: scroll;
     display: flex;
     position: fixed;
     flex-direction: column;
@@ -19,6 +19,8 @@ body {
 
 #container > * {
     width: 100%;
+    min-height: 10%;
+    max-height: 30%;
 }
 
 #top-bar {
@@ -51,7 +53,8 @@ body {
 
 #logo {
     width: initial !important;
-    min-width: 15%;
+    min-width: 14%;
+    min-height: initial;
     padding: 1% 0%;
 }
 
