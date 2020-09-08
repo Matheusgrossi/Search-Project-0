@@ -72,12 +72,19 @@ form {
 }
 
 #search-bar {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/VisualEditor_-_Icon_-_Search-big.svg/768px-VisualEditor_-_Icon_-_Search-big.svg.png');
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 10px;
+    
     border-color: lightgray;
     border-width: 0.1px;
-    padding: 11px 30px 11px 30px;
+    padding: 11px 33.5px;
     min-width: 37.7%;
     max-width: 70%;
     height: 22px;
+    
 }
 
 #magnifier {
@@ -88,7 +95,7 @@ form {
     margin-left: 10px;
 }
 
-#btns-td { padding: 1.9% 3%; }
+#btns-td { padding: 1.3% 3%; }
 
 input[type=text] {
     background: #fff;
