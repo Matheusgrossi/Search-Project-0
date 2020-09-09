@@ -143,6 +143,10 @@ input[type=submit] {
     #top-bar { margin-right: 45px; }
 }
 
+footer {
+    margin-top: 100px;
+}
+
 footer > div {
     border-top: 1px solid #e4e4e4;
     border-bottom: 1px solid #e4e4e4;
